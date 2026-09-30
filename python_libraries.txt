@@ -1,0 +1,12 @@
+colorama
+openpyxl
+getpass
+datetime
+uuid
+time
+rich
+pyfiglet
+os
+Pandas
+NumPy
+random
