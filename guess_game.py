@@ -32,7 +32,7 @@ console.print("[bold cyan]Now, guess whether the next number will be higher or l
 while True:
     user_guess = input(f" Please enter your guess (higher/lower) or 'h'/'l' and enter exit to quit: ")
     if user_guess.lower() == "exit":
-        console.print("[bold orange]Thanks for playing! Goodbye![/bold orange]")
+        console.print("[bold yellow]Thanks for playing! Goodbye![/bold yellow]")
         break
     random_integer2 = random.randint(1, 100)
     if user_guess.lower() == "higher" or user_guess.lower() == "h":
